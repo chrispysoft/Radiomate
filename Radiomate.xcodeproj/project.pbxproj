@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83DF46252ABD85FC00A484A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF46242ABD85FC00A484A9 /* AppDelegate.swift */; };
+		83DF46272ABD85FD00A484A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DF46262ABD85FD00A484A9 /* Assets.xcassets */; };
+		83DF462A2ABD85FD00A484A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83DF46282ABD85FD00A484A9 /* MainMenu.xib */; };
+		83DF46352ABD85FD00A484A9 /* RadiomateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF46342ABD85FD00A484A9 /* RadiomateTests.swift */; };
+		83DF463F2ABD85FD00A484A9 /* RadiomateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF463E2ABD85FD00A484A9 /* RadiomateUITests.swift */; };
+		83DF46412ABD85FD00A484A9 /* RadiomateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF46402ABD85FD00A484A9 /* RadiomateUITestsLaunchTests.swift */; };
+		83DF464F2ABD878600A484A9 /* PostgresClientKit in Frameworks */ = {isa = PBXBuildFile; productRef = 83DF464E2ABD878600A484A9 /* PostgresClientKit */; };
+		83DF46512ABD87F000A484A9 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF46502ABD87F000A484A9 /* Scheduler.swift */; };
+		83DF46532ABD8C5600A484A9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF46522ABD8C5600A484A9 /* Database.swift */; };
+		83DF46552ABDA34E00A484A9 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF46542ABDA34E00A484A9 /* AudioEngine.swift */; };
+		83DF46572ABDA4C000A484A9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF46562ABDA4C000A484A9 /* Models.swift */; };
+		83DF46592ABDA78800A484A9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF46582ABDA78800A484A9 /* Config.swift */; };
+		83DF465B2ABDAAF800A484A9 /* Sine432.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83DF465A2ABDAAF800A484A9 /* Sine432.mp3 */; };
+		83DF465D2ABDCFBA00A484A9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF465C2ABDCFBA00A484A9 /* API.swift */; };
+		83DF466E2ABDDC6D00A484A9 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 83DF466D2ABDDC6D00A484A9 /* Swifter */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83DF46312ABD85FD00A484A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83DF46192ABD85FC00A484A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DF46202ABD85FC00A484A9;
+			remoteInfo = Radiomate;
+		};
+		83DF463B2ABD85FD00A484A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83DF46192ABD85FC00A484A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DF46202ABD85FC00A484A9;
+			remoteInfo = Radiomate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83DF46212ABD85FC00A484A9 /* Radiomate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radiomate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DF46242ABD85FC00A484A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83DF46262ABD85FD00A484A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83DF46292ABD85FD00A484A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		83DF462B2ABD85FD00A484A9 /* Radiomate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Radiomate.entitlements; sourceTree = "<group>"; };
+		83DF46302ABD85FD00A484A9 /* RadiomateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadiomateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DF46342ABD85FD00A484A9 /* RadiomateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiomateTests.swift; sourceTree = "<group>"; };
+		83DF463A2ABD85FD00A484A9 /* RadiomateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadiomateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DF463E2ABD85FD00A484A9 /* RadiomateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiomateUITests.swift; sourceTree = "<group>"; };
+		83DF46402ABD85FD00A484A9 /* RadiomateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiomateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83DF46502ABD87F000A484A9 /* Scheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		83DF46522ABD8C5600A484A9 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		83DF46542ABDA34E00A484A9 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		83DF46562ABDA4C000A484A9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		83DF46582ABDA78800A484A9 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		83DF465A2ABDAAF800A484A9 /* Sine432.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sine432.mp3; path = "../../../../../Music/Audio-Test-Files/Sine432.mp3"; sourceTree = "<group>"; };
+		83DF465C2ABDCFBA00A484A9 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83DF461E2ABD85FC00A484A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DF464F2ABD878600A484A9 /* PostgresClientKit in Frameworks */,
+				83DF466E2ABDDC6D00A484A9 /* Swifter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DF462D2ABD85FD00A484A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DF46372ABD85FD00A484A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83DF46182ABD85FC00A484A9 = {
+			isa = PBXGroup;
+			children = (
+				83DF46232ABD85FC00A484A9 /* Radiomate */,
+				83DF46332ABD85FD00A484A9 /* RadiomateTests */,
+				83DF463D2ABD85FD00A484A9 /* RadiomateUITests */,
+				83DF46222ABD85FC00A484A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83DF46222ABD85FC00A484A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83DF46212ABD85FC00A484A9 /* Radiomate.app */,
+				83DF46302ABD85FD00A484A9 /* RadiomateTests.xctest */,
+				83DF463A2ABD85FD00A484A9 /* RadiomateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83DF46232ABD85FC00A484A9 /* Radiomate */ = {
+			isa = PBXGroup;
+			children = (
+				83DF46242ABD85FC00A484A9 /* AppDelegate.swift */,
+				83DF46582ABDA78800A484A9 /* Config.swift */,
+				83DF46502ABD87F000A484A9 /* Scheduler.swift */,
+				83DF46522ABD8C5600A484A9 /* Database.swift */,
+				83DF46562ABDA4C000A484A9 /* Models.swift */,
+				83DF46542ABDA34E00A484A9 /* AudioEngine.swift */,
+				83DF465C2ABDCFBA00A484A9 /* API.swift */,
+				83DF465A2ABDAAF800A484A9 /* Sine432.mp3 */,
+				83DF46262ABD85FD00A484A9 /* Assets.xcassets */,
+				83DF46282ABD85FD00A484A9 /* MainMenu.xib */,
+				83DF462B2ABD85FD00A484A9 /* Radiomate.entitlements */,
+			);
+			path = Radiomate;
+			sourceTree = "<group>";
+		};
+		83DF46332ABD85FD00A484A9 /* RadiomateTests */ = {
+			isa = PBXGroup;
+			children = (
+				83DF46342ABD85FD00A484A9 /* RadiomateTests.swift */,
+			);
+			path = RadiomateTests;
+			sourceTree = "<group>";
+		};
+		83DF463D2ABD85FD00A484A9 /* RadiomateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83DF463E2ABD85FD00A484A9 /* RadiomateUITests.swift */,
+				83DF46402ABD85FD00A484A9 /* RadiomateUITestsLaunchTests.swift */,
+			);
+			path = RadiomateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83DF46202ABD85FC00A484A9 /* Radiomate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DF46442ABD85FD00A484A9 /* Build configuration list for PBXNativeTarget "Radiomate" */;
+			buildPhases = (
+				83DF461D2ABD85FC00A484A9 /* Sources */,
+				83DF461E2ABD85FC00A484A9 /* Frameworks */,
+				83DF461F2ABD85FC00A484A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Radiomate;
+			packageProductDependencies = (
+				83DF464E2ABD878600A484A9 /* PostgresClientKit */,
+				83DF466D2ABDDC6D00A484A9 /* Swifter */,
+			);
+			productName = Radiomate;
+			productReference = 83DF46212ABD85FC00A484A9 /* Radiomate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83DF462F2ABD85FD00A484A9 /* RadiomateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DF46472ABD85FD00A484A9 /* Build configuration list for PBXNativeTarget "RadiomateTests" */;
+			buildPhases = (
+				83DF462C2ABD85FD00A484A9 /* Sources */,
+				83DF462D2ABD85FD00A484A9 /* Frameworks */,
+				83DF462E2ABD85FD00A484A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83DF46322ABD85FD00A484A9 /* PBXTargetDependency */,
+			);
+			name = RadiomateTests;
+			productName = RadiomateTests;
+			productReference = 83DF46302ABD85FD00A484A9 /* RadiomateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83DF46392ABD85FD00A484A9 /* RadiomateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DF464A2ABD85FD00A484A9 /* Build configuration list for PBXNativeTarget "RadiomateUITests" */;
+			buildPhases = (
+				83DF46362ABD85FD00A484A9 /* Sources */,
+				83DF46372ABD85FD00A484A9 /* Frameworks */,
+				83DF46382ABD85FD00A484A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83DF463C2ABD85FD00A484A9 /* PBXTargetDependency */,
+			);
+			name = RadiomateUITests;
+			productName = RadiomateUITests;
+			productReference = 83DF463A2ABD85FD00A484A9 /* RadiomateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83DF46192ABD85FC00A484A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					83DF46202ABD85FC00A484A9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					83DF462F2ABD85FD00A484A9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 83DF46202ABD85FC00A484A9;
+					};
+					83DF46392ABD85FD00A484A9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 83DF46202ABD85FC00A484A9;
+					};
+				};
+			};
+			buildConfigurationList = 83DF461C2ABD85FC00A484A9 /* Build configuration list for PBXProject "Radiomate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83DF46182ABD85FC00A484A9;
+			packageReferences = (
+				83DF464D2ABD878600A484A9 /* XCRemoteSwiftPackageReference "PostgresClientKit" */,
+				83DF466C2ABDDC6D00A484A9 /* XCRemoteSwiftPackageReference "swifter" */,
+			);
+			productRefGroup = 83DF46222ABD85FC00A484A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83DF46202ABD85FC00A484A9 /* Radiomate */,
+				83DF462F2ABD85FD00A484A9 /* RadiomateTests */,
+				83DF46392ABD85FD00A484A9 /* RadiomateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83DF461F2ABD85FC00A484A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DF46272ABD85FD00A484A9 /* Assets.xcassets in Resources */,
+				83DF465B2ABDAAF800A484A9 /* Sine432.mp3 in Resources */,
+				83DF462A2ABD85FD00A484A9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DF462E2ABD85FD00A484A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DF46382ABD85FD00A484A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83DF461D2ABD85FC00A484A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DF46552ABDA34E00A484A9 /* AudioEngine.swift in Sources */,
+				83DF46512ABD87F000A484A9 /* Scheduler.swift in Sources */,
+				83DF46252ABD85FC00A484A9 /* AppDelegate.swift in Sources */,
+				83DF46532ABD8C5600A484A9 /* Database.swift in Sources */,
+				83DF46572ABDA4C000A484A9 /* Models.swift in Sources */,
+				83DF46592ABDA78800A484A9 /* Config.swift in Sources */,
+				83DF465D2ABDCFBA00A484A9 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DF462C2ABD85FD00A484A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DF46352ABD85FD00A484A9 /* RadiomateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DF46362ABD85FD00A484A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DF463F2ABD85FD00A484A9 /* RadiomateUITests.swift in Sources */,
+				83DF46412ABD85FD00A484A9 /* RadiomateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83DF46322ABD85FD00A484A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83DF46202ABD85FC00A484A9 /* Radiomate */;
+			targetProxy = 83DF46312ABD85FD00A484A9 /* PBXContainerItemProxy */;
+		};
+		83DF463C2ABD85FD00A484A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83DF46202ABD85FC00A484A9 /* Radiomate */;
+			targetProxy = 83DF463B2ABD85FD00A484A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83DF46282ABD85FD00A484A9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DF46292ABD85FD00A484A9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83DF46422ABD85FD00A484A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83DF46432ABD85FD00A484A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		83DF46452ABD85FD00A484A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Radiomate/Radiomate.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Radiomate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		83DF46462ABD85FD00A484A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Radiomate/Radiomate.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Radiomate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		83DF46482ABD85FD00A484A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RadiomateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radiomate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Radiomate";
+			};
+			name = Debug;
+		};
+		83DF46492ABD85FD00A484A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RadiomateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radiomate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Radiomate";
+			};
+			name = Release;
+		};
+		83DF464B2ABD85FD00A484A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RadiomateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Radiomate;
+			};
+			name = Debug;
+		};
+		83DF464C2ABD85FD00A484A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RadiomateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Radiomate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83DF461C2ABD85FC00A484A9 /* Build configuration list for PBXProject "Radiomate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DF46422ABD85FD00A484A9 /* Debug */,
+				83DF46432ABD85FD00A484A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DF46442ABD85FD00A484A9 /* Build configuration list for PBXNativeTarget "Radiomate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DF46452ABD85FD00A484A9 /* Debug */,
+				83DF46462ABD85FD00A484A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DF46472ABD85FD00A484A9 /* Build configuration list for PBXNativeTarget "RadiomateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DF46482ABD85FD00A484A9 /* Debug */,
+				83DF46492ABD85FD00A484A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DF464A2ABD85FD00A484A9 /* Build configuration list for PBXNativeTarget "RadiomateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DF464B2ABD85FD00A484A9 /* Debug */,
+				83DF464C2ABD85FD00A484A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83DF464D2ABD878600A484A9 /* XCRemoteSwiftPackageReference "PostgresClientKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/codewinsdotcom/PostgresClientKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		83DF466C2ABDDC6D00A484A9 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83DF464E2ABD878600A484A9 /* PostgresClientKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83DF464D2ABD878600A484A9 /* XCRemoteSwiftPackageReference "PostgresClientKit" */;
+			productName = PostgresClientKit;
+		};
+		83DF466D2ABDDC6D00A484A9 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83DF466C2ABDDC6D00A484A9 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 83DF46192ABD85FC00A484A9 /* Project object */;
+}
